@@ -70,8 +70,8 @@ Upstream URLs are encoded as URL-safe Base64 inside the proxied path (`/s/aHR0cD
 **Requirements:** Docker with the Compose plugin.
 
 ```bash
-git clone https://github.com/<you>/<repo>.git
-cd <repo>
+git clone https://github.com/Lunatic16/OnDemand-IPTV-HLS-Playlist-Proxy.git
+cd OnDemand-IPTV-HLS-Playlist-Proxy
 
 cp .env.example .env
 # edit .env and set UPSTREAM_PLAYLIST_URL (the full URL, token included)
